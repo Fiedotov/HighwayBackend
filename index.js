@@ -23,5 +23,5 @@ app.get('/tokens',(req,res)=>{
 })
 
 app.listen(6000,()=>{
-    console.log('app is running on http://localhost:6000')
+    console.log('app is running on http://localhost:3122')
 })
