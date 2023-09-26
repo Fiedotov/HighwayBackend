@@ -1,0 +1,10 @@
+{
+  "name": "agorabackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "agora-token": "^2.0.3",
+    "express": "^4.18.2"
+  }
+}
