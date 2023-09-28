@@ -9,6 +9,7 @@ function generateTokens(){
     let date = main.length ? main[0].date : '';
     console.log(date);
     if(date == '' || currentDate !== date){
+        main = [];
         channels.forEach((item)=>{
             let tkn = RtcTokenBuilder.buildTokenWithUserAccount('30d769835fbc4e299da69364b4b6629d','92a6f09ed15d426f97c668d5f270fc6f',item,'',RtcRole.PUBLISHER,86400);
             let obj = {
