@@ -11,7 +11,7 @@ function generateTokens(){
     if(date == '' || currentDate !== date){
         main = [];
         channels.forEach((item)=>{
-            let tkn = RtcTokenBuilder.buildTokenWithUserAccount('8c7be002e6024228947fa62efe1044e6 ','35204183872047d682d67bc583c0b512 ',item,'',RtcRole.PUBLISHER,86400);
+            let tkn = RtcTokenBuilder.buildTokenWithUserAccount('35204183872047d682d67bc583c0b512','8c7be002e6024228947fa62efe1044e6',item,'',RtcRole.PUBLISHER,86400);
             let obj = {
                 channel : item,
                 token : tkn,
