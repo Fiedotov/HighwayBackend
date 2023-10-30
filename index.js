@@ -11,8 +11,8 @@ function generateTokens(){
     if(date == '' || currentDate !== date){
         main = [];
         channels.forEach((item)=>{
-            // let tkn = RtcTokenBuilder.buildTokenWithUserAccount('30d769835fbc4e299da69364b4b6629d','92a6f09ed15d426f97c668d5f270fc6f',item,'',RtcRole.PUBLISHER,86400);//Norman's
-            let tkn = RtcTokenBuilder.buildTokenWithUserAccount('8c7be002e6024228947fa62efe1044e6','35204183872047d682d67bc583c0b512',item,'',RtcRole.PUBLISHER,86400);//Client's
+            let tkn = RtcTokenBuilder.buildTokenWithUserAccount('30d769835fbc4e299da69364b4b6629d','92a6f09ed15d426f97c668d5f270fc6f',item,'',RtcRole.PUBLISHER,86400);//Norman's
+            // let tkn = RtcTokenBuilder.buildTokenWithUserAccount('8c7be002e6024228947fa62efe1044e6','35204183872047d682d67bc583c0b512',item,'',RtcRole.PUBLISHER,86400);//Client's
             let obj = {
                 channel : item,
                 token : tkn,
